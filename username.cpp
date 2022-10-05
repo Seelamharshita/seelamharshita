@@ -10,6 +10,9 @@ int main()
 	if((strcmp(p1,p2)==0))
 	{
 		printf("username is valid");
+printf("username is valid");
+printf("username is valid");
+printf("username is valid");
 	}
 	else
 	{
