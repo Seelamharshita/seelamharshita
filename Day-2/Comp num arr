@@ -1,0 +1,72 @@
+#include<stdio.h>
+void main (){
+    int i,n,a[100],count=0;
+    printf("enter size:");
+    scanf("%d",&n);
+    printf("enter elements\n");
+    for(i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++){
+       if(a[i]==2){
+          continue;
+       }       
+        else if(a[i]%2==0){
+         count++;
+        }
+    }
+        if(count>2){    
+        }
+       printf("total composite number are: %d",count);
+ }
+Explanation of this C program
+Step 1: Start.
+
+Step 2: Create a header file and include the library on it.
+
+Step 3: Create void main function.
+
+Step 4: Declare one array and three variables.
+
+Step 5: Create two inputs one is for the size of an array and another for taking elements in an array to create an input with help of scanf.
+
+Step 6: Create two for loop first one for input of element and the second one for logic and conditon to count composite number.
+
+
+Step 7: In for loop create if,  and else if statement for logic :
+
+– condition of for loop = (i=0;i<n;i++),
+
+– condition of if statement = (a[i]==2) (to continue without two because two is aa prime number),
+
+– condition of else if statement = (a[i]%2==0) (and increment of count++ to cheak next number after incriment).
+
+
+Step 8: After for loop create a if statement, and the condition is “count>2” to print the number which is divide by moe than two number.
+
+
+Step 9: Print a appropiate message with the help of printf and count.
+
+Step 10: End.
+
+Output of this C program
+
+
+In this way, we learned how to write a C program to count all the composite numbers in an array
+
+ 
+
+
+<< Square of an array
+Prime number in an array >>
+
+Ezoicreport this ad
+
+
+Copyright © 2022 CODEDEC | All Rights Reserved.
+
+About Us
+Privacy Policy
+Disclaimer
+Contact Us
+Join Internship
